@@ -1,0 +1,57 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.log
+*.out
+*.idea
+*.vscode
+*.suo
+*.user
+*.sln
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore log files
+*.log
+*.logs
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+
+# Ignore environment files
+.env
+.venv
+venv/
+env/
+
+# Ignore dependency directories
+vendor/
+bower_components/
+/.idea
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore system files
+*.bak
+*.backup
+*.iml
